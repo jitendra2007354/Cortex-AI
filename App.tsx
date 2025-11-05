@@ -2,6 +2,8 @@ import React from 'react';
 import MainApp from './MainApp';
 import Auth from './components/Auth';
 import { useAuth } from './hooks/useAuth';
+import { BrowserRouter } from 'react-router-dom';
+
 
 export default function App() {
     const { user, login, signUp, logout, updateUserAvatar, handleGoogleSignIn, authError, clearAuthError } = useAuth();
