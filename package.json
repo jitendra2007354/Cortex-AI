@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "@google/genai": "^1.28.0",
+    "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react": "^19.2.0"
+    "react-router-dom": "^6.28.0"  // ✅ Added this line
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
+    "@types/react": "^19.0.3",     // ✅ Optional but recommended for TS
+    "@types/react-dom": "^19.0.2", // ✅ Optional but recommended for TS
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
