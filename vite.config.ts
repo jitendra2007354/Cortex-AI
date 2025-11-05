@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/Cortex-AI/', // ✅ Required for GitHub Pages
+    base: '/Cortex-AI/', // ✅ Required for GitHub Pages ✅
 
     server: {
       port: 3000,
@@ -27,3 +27,4 @@ export default defineConfig(({ mode }) => {
     }
   };
 });
+
