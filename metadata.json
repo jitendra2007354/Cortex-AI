@@ -1,0 +1,7 @@
+{
+  "name": "Cortex AI",
+  "description": "A beautifully redesigned, feature-rich AI chatbot. Engage in text conversations, generate images, and interact with a powerful AI in a sleek, modern interface.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
