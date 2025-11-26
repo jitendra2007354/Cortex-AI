@@ -17,7 +17,7 @@ const GsiConfiguration: React.FC<GsiConfigurationProps> = ({ onGoogleSignIn }) =
 
   useEffect(() => {
     const initializeGsi = () => {
-      const clientId = process.env.GOOGLE_CLIENT_ID;
+      const clientId = import.vite.env.GOOGLE_CLIENT_ID;
 
       // Check if the client ID is missing or is still the placeholder value
       if (!clientId || clientId === 'YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com') {
